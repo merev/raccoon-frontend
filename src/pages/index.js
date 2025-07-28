@@ -1,0 +1,9 @@
+export { default as HomePage } from './home_page/HomePage';
+export { default as ServicesMainPage } from './services_main_page/ServicesMainPage';
+export { default as FlatsPage } from './services_pages/FlatsPage';
+export { default as HousesPage } from './services_pages/HousesPage';
+export { default as OfficesPage } from './services_pages/OfficesPage';
+export { default as CarsPage } from './services_pages/CarsPage';
+export { default as EntrancesPage } from './services_pages/EntrancesPage';
+export { default as BackyardsPage } from './services_pages/BackyardsPage';
+export { default as ContactsPage } from './contacts_page/ContactsPage';

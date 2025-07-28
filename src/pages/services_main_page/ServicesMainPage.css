@@ -1,0 +1,56 @@
+.services-page {
+  background: linear-gradient(to top left, rgb(255, 247, 90), #cfffbd);
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.services-title {
+  font-weight: bold;
+  color: rgb(53, 53, 53);
+  font-family: "Montserrat", serif;
+  padding-top: 60px;
+}
+
+.service-card {
+  width: 100%;
+  max-width: 350px;
+  background-color: #fff;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease;
+  box-shadow: 15px 18px 32px 0px rgba(0, 0, 0, 0.514);
+  z-index: 2;
+  border: none;
+}
+
+.service-card:hover {
+  box-shadow: 20px 23px 32px 0px rgba(0, 0, 0, 0.587);
+  z-index: 2;
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.service-img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.service-body {
+  padding: 20px;
+}
+
+.service-title {
+  font-family: "Open Sans";
+  font-weight: bold;
+  color: #333;
+}
+
+.service-points {
+  padding-left: 1rem;
+  color: #333;
+}
+
+.service-points li {
+  margin-bottom: 0.5rem;
+}

@@ -1,0 +1,48 @@
+.contacts-section {
+  background: linear-gradient(to top left, rgb(255, 247, 90), #cfffbd);
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.contacts-title {
+  font-weight: bold;
+  color: rgb(53, 53, 53);
+  font-family: "Montserrat", serif;
+  padding-top: 60px;
+}
+
+.contact-box {
+  background-color: #fff;
+  border-radius: 1.5rem;
+  box-shadow: 15px 18px 32px 0px rgba(0, 0, 0, 0.2);
+  margin-top: 30px;
+}
+
+.contact-box h4 {
+  font-family: "Open Sans";
+  font-weight: bold;
+  color: #333;
+}
+
+.contact-box p,
+.contact-box a {
+  color: #333;
+  font-size: 1rem;
+}
+
+.contact-box a:hover {
+  color: #28a745;
+  text-decoration: none;
+}
+
+.social-links a {
+  font-size: 1.8rem;
+  margin-right: 15px;
+  color: #333;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.social-links a:hover {
+  color: #28a745;
+  transform: scale(1.1);
+}

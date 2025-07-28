@@ -1,0 +1,10 @@
+.aos-wrapper {
+  overflow-x: hidden;
+  width: 100%;
+  padding: 0px;
+}
+
+[data-aos] {
+  backface-visibility: hidden;
+  will-change: transform, opacity;
+}

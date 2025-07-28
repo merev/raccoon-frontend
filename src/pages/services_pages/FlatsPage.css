@@ -1,0 +1,129 @@
+body.modal-open {
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+}
+
+.service-detail-section {
+  background: linear-gradient(to top left, rgb(255, 247, 90), #cfffbd);
+  overflow-x: hidden;
+}
+
+.service-title {
+  font-weight: bold;
+  color: rgb(53, 53, 53);
+  font-family: "Montserrat", serif;
+  padding-top: 60px;
+}
+
+.activity-list {
+  font-size: 1.1rem;
+  color: #333;
+  padding-left: 1rem;
+}
+
+.plan-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 1.2rem;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  transition: transform 0.3s ease;
+}
+
+.plan-card:hover {
+  transform: translateY(-5px);
+}
+
+.calculator-box {
+  background-color: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+.summary-box {
+  text-align: left;
+}
+
+.summary-box h5 {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.summary-box p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 5px;
+  padding-bottom: 0.2rem;
+  bottom: 0;
+  background: white;
+  padding-top: 1rem;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  z-index: 9999;
+  padding: 20px 0;
+  overflow-y: auto;
+  pointer-events: none;
+}
+
+.modal-content {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 2rem;
+  max-width: 600px;
+  width: 90%;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 0.3s ease-in-out;
+  margin: auto;
+  padding-bottom: 20px;
+  pointer-events: auto;
+}
+
+.modal-content .form-group {
+  margin-bottom: 1rem;
+  min-height: 5rem;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.content-blurred {
+  filter: blur(2px);
+  pointer-events: none;
+}
+
+/* Checkbox styling */
+.form-check {
+  cursor: pointer;
+}
+
+.form-check-input {
+  cursor: pointer;
+}
+
+.form-check-label {
+  cursor: pointer;
+  user-select: none;
+}

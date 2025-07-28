@@ -1,0 +1,34 @@
+.header-component {
+    background-color: rgb(53, 53, 53);
+    overflow-x: hidden;
+}
+
+.header-logo {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: rgb(220, 220, 220);
+}
+
+.header-logo img {
+    max-width: 40px;
+    height: auto;
+}
+
+.header-logo:hover {
+    color: rgb(222, 255, 90);
+    cursor: pointer;
+}
+
+.header-element {
+    color: rgb(220, 220, 220);
+    font-weight: bold;
+}
+
+.header-element:hover {
+    color: rgb(222, 255, 90);
+    cursor: pointer;
+}
+
+.active-link {
+  color: #a3ffa9 !important;
+}
