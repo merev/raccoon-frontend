@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Container, Row, Col, Card, Button, Form, Spinner } from 'react-bootstrap';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import './ServicePage.css'; // Reuse FlatsPage.css for shared styles
+import './ServicePage.css';
 import { CenteredLayout, PartnersSection, PlanSelector, ActivityCalculator, ReservationModal } from '../../components';
 import {
   officeTypes,
