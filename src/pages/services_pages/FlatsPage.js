@@ -1,9 +1,8 @@
-// ✅ Updated FlatsPage.jsx using shared components
 import React, { useEffect, useState } from 'react';
 import { Container, Row, Col, Form, Button, Spinner } from 'react-bootstrap';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import './FlatsPage.css';
+import './ServicePage.css';
 import { CenteredLayout, PartnersSection, PlanSelector, ActivityCalculator, ReservationModal } from '../../components';
 import {
   flatTypes,
