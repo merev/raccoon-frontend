@@ -5,7 +5,7 @@ import 'aos/dist/aos.css';
 import './ServicePage.css';
 import { CenteredLayout, PartnersSection, PlanSelector, ActivityCalculator, ReservationModal } from '../../components';
 import {
-  housesTypes,
+  houseTypes,
   subscriptionTypes,
   plans,
   activities
