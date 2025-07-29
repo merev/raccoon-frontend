@@ -62,7 +62,7 @@ const services = [
   {
     title: 'Заведения',
     img: 'restaurants.jpg',
-    link: '/services/restaurants',
+    link: '/services/venues',
     points: [
       'Почистване на кухненски зони и оборудване',
       'Дезинфекция на работни повърхности',

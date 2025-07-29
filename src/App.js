@@ -2,18 +2,13 @@ import { React, useState } from 'react';
 import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 import { Col, Container, Row } from 'react-bootstrap';
 import { ScrollToTop } from './components';
-import { HomePage, ServicesMainPage, FlatsPage, HousesPage, OfficesPage, CarsPage, EntrancesPage, BackyardsPage, ContactsPage } from './pages';
+import { HomePage, ServicesMainPage, FlatsPage, HousesPage, OfficesPage, CarsPage, EntrancesPage, BackyardsPage, VenuesPage, GaragesPage, SpecialObjectsPage, ContactsPage } from './pages';
 import './App.css';
 
 function Layout() {
-    // const location = useLocation();
-
-    // // Check if the current path starts with "/docs"
-    // const showSidebar = location.pathname.startsWith('/docs');
 
     return (
         <div>
-            {/* <Header /> */}
             <Container fluid className='home-page'>
                 <Row>
                    <Routes>
@@ -26,6 +21,9 @@ function Layout() {
                             <Route exact path="/services/cars" element={<CarsPage />} />
                             <Route exact path="/services/entrances" element={<EntrancesPage />} />
                             <Route exact path="/services/backyards" element={<BackyardsPage />} />
+                            <Route exact path="/services/venues" element={<VenuesPage />} />
+                            <Route exact path="/services/garages" element={<GaragesPage />} />
+                            <Route exact path="/services/specialized" element={<SpecialObjectsPage />} />
                             {/* Add more routes as needed */}
                   </Routes>
                 </Row>

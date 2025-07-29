@@ -6,4 +6,7 @@ export { default as OfficesPage } from './services_pages/OfficesPage';
 export { default as CarsPage } from './services_pages/CarsPage';
 export { default as EntrancesPage } from './services_pages/EntrancesPage';
 export { default as BackyardsPage } from './services_pages/BackyardsPage';
+export { default as VenuesPage } from './services_pages/VenuesPage'
+export { default as GaragesPage } from './services_pages/GaragesPage'
+export { default as SpecialObjectsPage } from './services_pages/SpecialObjectsPage'
 export { default as ContactsPage } from './contacts_page/ContactsPage';
